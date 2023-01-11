@@ -1,0 +1,147 @@
+:root {
+    --main-white: #FFFFFF;
+    --scd-gray: #C0C0C0;
+    --button-blue: #167BF7;
+    --background-blue: #00030C;
+    --main-font: 'Inter';
+}
+
+body {
+    background-color: var(--background-blue);
+    color: var(--main-white);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__button{
+    background-color: var(--button-blue);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--main-white);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.container__title{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__disclaimer{
+    font-size: 12px;
+    color: var(--scd-gray);
+}
+
+.container__images{
+    margin: 1em 0 2em 0;
+}
+
+.button_secondary{
+    background-color: transparent;
+    border: 2px solid var(--main-white);
+
+}
+
+.container_box{
+    margin: 0 6em;
+}
+
+.secondary_image{
+    width:80%;
+
+}
+
+.secondary{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.title_description{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--main-white);
+    margin-bottom: 1em;
+}
+
+.text_description{
+    color: var(--scd-gray)
+}
+
+.secondary_button{
+    margin-top: 1em;
+    display: inline-block;
+}
+
+.container_description{
+    padding: 2em;
+}
+
+.list_devices{
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+
+}
+
+.devices{
+    text-align: center;
+}
+
+.title_devices{
+    font-size: 48px;
+    color:var(--main-white)
+}
+
+.list_item{
+    font-size: 32px;
+    color:var(--main-white);
+   
+}
+
+.footer{
+    text-align: center;
+    margin-bottom: 8em;
+}
+
+.footer_list{
+    display:flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.link_list{
+    text-decoration: none;
+    color: var(--main-white);
+    margin-left: 1em;
+}
+
+.footer_logo{
+    margin: 2em 0;
+}
+
+.footer_text{
+    margin: 2em 3em;
+    font-size: 14px;
+    color: var(--scd-gray);
+}
